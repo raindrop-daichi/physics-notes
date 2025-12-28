@@ -12,16 +12,16 @@ permalink: pretty
 collections:
   mechanics:
     output: true
-    permalink: /mechanics/:name/
+    permalink: /mechanics/:basename/
   electromagnetism:
     output: true
-    permalink: /electromagnetism/:name/
+    permalink: /electromagnetism/:basename/
   thermodynamics:
     output: true
-    permalink: /thermodynamics/:name/
+    permalink: /thermodynamics/:basename/
   quantum:
     output: true
-    permalink: /quantum/:name/
+    permalink: /quantum/:basename/
 
 # Navigation
 header_pages:
