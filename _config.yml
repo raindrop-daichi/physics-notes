@@ -1,0 +1,36 @@
+# Jekyll configuration for Physics Notes
+title: 物理ノート
+description: 物理の勉強した内容をわかりやすく説明していくサイト
+theme: minima
+lang: ja
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Collections for organizing physics content
+collections:
+  mechanics:
+    output: true
+    permalink: /mechanics/:name/
+  electromagnetism:
+    output: true
+    permalink: /electromagnetism/:name/
+  thermodynamics:
+    output: true
+    permalink: /thermodynamics/:name/
+  quantum:
+    output: true
+    permalink: /quantum/:name/
+
+# Navigation
+header_pages:
+  - index.md
+  - about.md
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
